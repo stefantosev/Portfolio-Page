@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Stefan Tosev</title>
+  <link rel="icon" type="image/png" href="Images/Icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+DW+Pica&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="index.html" class="nav-logo">Walkorion</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="projects.html" class="nav-link active">Projects</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-header" data-nav-dark>
+    <div class="hero-noise"></div>
+    <div class="container">
+      <h1 class="hero-name small" data-reveal>
+        <span class="hero-name-line">Projects.</span>
+      </h1>
+    </div>
+    <div class="hero-ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>PrognozaDuvaLi</span><span>·</span>
+        <span>Hotel App DevOps</span><span>·</span>
+        <span>ISP Architecture</span><span>·</span>
+        <span>Cloud</span><span>·</span>
+        <span>OSPF Networks</span><span>·</span>
+        <span>PrognozaDuvaLi</span><span>·</span>
+        <span>Hotel App DevOps</span><span>·</span>
+        <span>ISP Architecture</span><span>·</span>
+        <span>Cloud</span><span>·</span>
+        <span>OSPF Networks</span><span>·</span>
+        <span>X-Men Fandom</span><span>·</span>
+        <span>Windows Server</span><span>·</span>
+        <span>Linux System Admin</span><span>·</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured" class="section">
+    <div class="container">
+      <p class="section-label">Featured</p>
+      <h2 class="section-heading">Favourite projects.</h2>
+    </div>
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+
+        <div class="carousel-slide active">
+          <div class="carousel-slide-inner" style="background-image: url('images/PrognozaDuvaLiMain.png')">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content">
+              <span class="carousel-num">01</span>
+              <h3 class="carousel-title">PrognozaDuvaLi</h3>
+              <p class="carousel-desc">A weather forecast web application built with Java Spring + React and modern APIs.</p>
+              <a href="https://prognoza-duva-li-jpd4.vercel.app/" target="_blank" class="btn btn-outline sm">View the site→</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-slide">
+          <div class="carousel-slide-inner" style="background-image: url('images/LogicalSkopjeBackbone.png')">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content">
+              <span class="carousel-num">02</span>
+              <h3 class="carousel-title">ISP Architecture — OSPF & Cloud Security</h3>
+              <p class="carousel-desc">ISP network design with OSPF routing protocols and cloud security integration.</p>
+              <a href="https://github.com/stefantosev/isp-architecture-ospf-cloud-security" target="_blank" class="btn btn-outline sm">View on GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-slide">
+          <div class="carousel-slide-inner" style="background-image: url('images/DevOpsApp.png')">
+            <div class="carousel-overlay"></div>
+            <div class="carousel-content">
+              <span class="carousel-num">03</span>
+              <h3 class="carousel-title">Hotel App DevOps</h3>
+              <p class="carousel-desc">Full hotel management system with DevOps pipeline — CI/CD, containers, and cloud deployment.</p>
+              <a href="https://github.com/stefantosev/Hotel_App_Devops" target="_blank" class="btn btn-outline sm">View on GitHub →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="prevBtn" aria-label="Previous">←</button>
+        <div class="carousel-dots" id="carouselDots">
+          <button class="carousel-dot active" data-index="0"></button>
+          <button class="carousel-dot" data-index="1"></button>
+          <button class="carousel-dot" data-index="2"></button>
+        </div>
+        <button class="carousel-btn" id="nextBtn" aria-label="Next">→</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="all-projects" class="section section-dark" data-nav-dark>
+    <div class="container">
+      <h2 class="section-heading light">Every project.</h2>
+
+      <div class="projects-list">
+
+        <article class="project-row">
+          <div class="project-img-wrap">
+            <img src="images/PrognozaDuvaLiMain.png" alt="PrognozaDuvaLi" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Java Spirng · Weather · API · React</span>
+            <h3 class="project-title">PrognozaDuvaLi</h3>
+            <p class="project-desc">A Macedonian-language weather forecast web app powered by open meteorological APIs. Built with Java Spring and React, it provides real-time wind and weather data with a clean interface.</p>
+            <div class="project-links">
+              <a href="https://prognoza-duva-li-jpd4.vercel.app/" target="_blank" class="project-link">View the site ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-row">
+          <div class="project-img-wrap">
+            <img src="images/CloudSDN.png" alt="ISP Architecture" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Networking · OSPF · Cloud · Cisco</span>
+            <h3 class="project-title">ISP Architecture — OSPF, Security & Cloud</h3>
+            <p class="project-desc">A comprehensive ISP network architecture project implementing OSPF dynamic routing. Includes DNS, DHCP, HTTPS configurations, firewall rules, and AWS Cloud for comparison with traditional networking approaches.</p>
+            <div class="project-links">
+              <a href="https://github.com/stefantosev/isp-architecture-ospf-cloud-security" target="_blank" class="project-link">GitHub traditional ISP scenario ↗</a>
+              <a href="https://app.cloudcraft.co/view/1893ea40-6691-433c-bdc1-49f0c579e71d?key=a6596490-1444-483a-a9dc-1d33892ee5d8" target="_blank" class="project-link">Cloudcraft scenario ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-row">
+          <div class="project-img-wrap">
+            <img src="images/DevOpsApp.png" alt="Hotel App DevOps" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Django · Python · Docker · CI/CD · DevOps</span>
+            <h3 class="project-title">Hotel App DevOps</h3>
+            <p class="project-desc">A hotel reservation and management system built with a full DevOps pipeline. Features containerized microservices, Github Actions CI/CD, Docker Compose deployment, K8S, and automated testing workflows.</p>
+            <div class="project-links">
+              <a href="https://github.com/stefantosev/Hotel_App_Devops" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-row">
+          <div class="project-img-wrap">
+            <img src="images/SysAdmin.png" alt="System" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Linux · Oracle Virtual Box · System Administration · SSH</span>
+            <h3 class="project-title">Linux System Administration</h3>
+            <p class="project-desc">All scenarios were developed and tested in a controlled virtualization environment using Oracle VM to simulate a real-world headless server deployment.</p>
+            <div class="project-links">
+              <a href="https://github.com/stefantosev/Hotel_App_Devops" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-row">
+          <div class="project-img-wrap">
+            <img src="images/UserCreating VIA powershell with PW.png" alt="System" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Windows Server · AWS · SystemAdministration · RDP · ActiveDirectory</span>
+            <h3 class="project-title">Exploring Windows Server</h3>
+            <p class="project-desc">Exploring the features and capabilities of Windows Server in a virtualized environment with Domain Controller.</p>
+            <div class="project-links">
+              <a href="https://github.com/stefantosev/Exploring-Windows-Server/tree/master" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-row">
+          <div class="project-img-wrap">
+            <img src="images/X-Men.png" alt="System" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">React · JavaSpring · API</span>
+            <h3 class="project-title">X-Men Fandom</h3>
+            <p class="project-desc">A fan-made website for the X-Men franchise, built with React and integrated with a JavaSpring backend API.</p>
+            <div class="project-links">
+              <a href="https://github.com/stefantosev/X-Men-Fandom" target="_blank" class="project-link">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+        
+
+        <article class="project-row">
+          <div class="project-img-wrap">
+            <img src="images/Explore.png" alt="More projects" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-tag">More projects</span>
+            <h3 class="project-title">More on GitHub</h3>
+            <p class="project-desc">Explore all repositories including additional tools, scripts, university assignments, and experiments. New projects added regularly as I continue learning and building.</p>
+            <div class="project-links">
+              <a href="https://github.com/stefantosev?tab=repositories" target="_blank" class="project-link">View All Repos ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">Walkorion</span>
+      <span class="footer-copy" id="footerDate"></span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
